@@ -1,0 +1,21 @@
+{
+	"default": {
+		"key": "${key}",
+		"title": "${url}",
+		"url": "${url}",
+		"params": {
+			"utm_campaign": "mailrender",
+			"utm_source": "mailrender",
+			"utm_medium": "mailrender"
+		},
+		"text": "Jussi.",
+		"images": [
+			{
+				"type": "slice",
+				"src": "img_a1.jpg",
+				"title": "img 1",
+				"alt": "img 1"
+			}
+		]
+	}
+}

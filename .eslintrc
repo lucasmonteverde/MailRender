@@ -1,0 +1,44 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": "warn",
+
+    "strict": "error",
+
+    "indent": ["warn", "tab"],
+
+    "quotes": ["warn", "single"],
+
+    "curly": ["error", "multi-line"],
+
+    "eqeqeq": ["error", "smart"],
+
+    // require let or const instead of var
+    "no-var": "error",
+
+    //"no-console": [1, { "allow": ["assert", "info", "error"] }],
+    "no-console": "off",
+    
+    // Disallow using variables and functions before they've been defined
+    "no-use-before-define": ["error", "nofunc"],
+
+    // Disallow unused variables, except as function arguments
+    "no-unused-vars": "error",
+
+    // enforces spacing between keys and values in object literal properties
+    "key-spacing": ["warn", { "beforeColon": false, "afterColon": true }],
+    
+    // require a space before & after certain keywords
+    "keyword-spacing": ["warn", {"after": true}],
+
+     // require or disallow space before blocks
+    "space-before-blocks": ["warn", "always"],
+
+     // require padding inside curly braces
+    "object-curly-spacing": ["warn", "always"]
+  }
+}

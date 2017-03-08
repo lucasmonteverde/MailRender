@@ -1,0 +1,58 @@
+{
+  "name": "mailrender",
+  "description": "Base E-mail MKT",
+  "version": "0.2.0",
+  "author": "Willian Siqueira",
+  "contributors": [
+    "Lucas Monteverde (https://github.com/lucasmonteverde)"
+  ],
+  "preferGlobal": true,
+  "main": "bin/index.js",
+  "bin": {
+    "mail-render": "./bin/index.js",
+    "mailrender": "./bin/index.js"
+  },
+  "engines": {
+    "node": "~6.x.x"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "cross-spawn": "^5.1.0",
+    "del": "^2.2.2",
+    "fs-extra": "^2.0.0",
+    "gitclone": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-flatten": "^0.3.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.0.0",
+    "inquirer": "^3.0.6",
+    "jsuri": "^1.3.1",
+    "juice": "^4.0.2",
+    "lodash": "^4.17.4",
+    "premailer-gulp-juice": "^0.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasmonteverde/mailrender.git"
+  },
+  "bugs": "https://github.com/lucasmonteverde/mailrender/issues",
+  "keywords": [
+    "mail-mkt",
+    "template",
+    "handlebars",
+    "juice",
+    "sass"
+  ],
+  "license": "MIT"
+}
