@@ -25,7 +25,7 @@ mailrender run
 #### Options
 
 - **--no**: Don\'t open browser tab
-- **--production**: Don\'t open browser tab
+- **--production**: Compress files to production
 
 
 
@@ -36,13 +36,13 @@ mailrender run
 
 - **default**: configurações padrão do sistema, tudo que é global deve estar em "default".
 
-	- **key**: Chave única do projeto geralmente usada como a pasta container ex: 20161213_feirao-de-fabrica-sul
+	- **key**: Chave única do projeto geralmente usada como a pasta container ex: yyyymmdd_my-campaign
 
 	- **title**: Título do projeto
-	- **url**: Url de destino geral ex: "http://loja.compracerta.com.br" todos componentes que não forem direcionados especificamente irão assumir esse caminho
+	- **url**: Url de destino geral ex: "http://www.mysite.com.br" todos componentes que não forem direcionados especificamente irão assumir esse caminho
 	- **width**: Largura do projeto ex "640" (NÂO tem a unidade de medida)
-	- **path**: Url dos arquivos (assets) ex: "http://dev.jussilabs.com/ztemp/"
-	- **params**: todos os parametros das URLs de cada link ex: "utm_campaign": "hotsite_colaborador" (todos os parametros devem estar com Chave/valor)
+	- **path**: Url dos arquivos (assets) ex: "http://cdn.mysite.com/mailfiles/"
+	- **params**: todos os parametros das URLs de cada link ex: "utm_campaign": "hotsite_my-campaign" (todos os parametros devem estar com Chave/valor)
 	- **term**: texto complemento/informativo, tratado como texto legal
 
 ### Components
@@ -67,7 +67,7 @@ mailrender run
 	- **alt**: Texto de alt da imagem
 	- **tit**: Titulo referente ao conteúdo (Pode ser tratado como HTML)
 	- **txt**: Texto referente ao conteúdo (Pode ser tratado como HTML)
-	- **coupon**: Texto referente ao conteúdo ex: **1216REFRI50X** (Pode ser tratado como HTML)
+	- **coupon**: Texto referente ao conteúdo ex: **0011COUPON10OFF** (Pode ser tratado como HTML)
 	- **cta**: Texto do botão (Pode ser tratado como HTML)
 
 
